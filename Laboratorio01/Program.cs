@@ -87,10 +87,16 @@ namespace Laboratorio01
             Console.WriteLine($"iii. {a} /{b}* {c} = {iii}");
             Console.WriteLine($"iv. 3*{a} +2*{b}/ {c}² = {iV}");
 
+            Console.WriteLine("Ejercicio 04 Expresion cuadratica ");
+           
 
+            double numbero2, numbero3;
+           
 
-
-
+            numbero2 = (-b + Math.Sqrt(b * b) )- (4 -( a * c)) / (2 * a);
+            numbero3 = (b + Math.Sqrt(b*b)) - (4 - (a * c)) / (2 * a);
+            Console.WriteLine("El resultado de la expresion cuadratica es x1:" + numbero2);
+            Console.WriteLine("El resultado de la expresion cuadratica es x2:" + numbero3);
 
 
             Console.ReadKey();
